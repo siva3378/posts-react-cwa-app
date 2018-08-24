@@ -1,0 +1,46 @@
+.post-page-infinite-items{
+  height: calc( 100vh - 280px );
+  overflow: auto;
+}
+
+.post-list{
+  margin: 0px;
+  padding: 0px;
+}
+.post-list.edit-mode-true li{
+  background: #e0e0e0;
+}
+.post-list.edit-mode-true li.editing{
+  background:white;
+}
+.post-list p{
+  margin: 0px;
+}
+.post-list li{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 14px;
+  padding: 16px 16px;
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.post-item p{
+  width: 80%;
+  display: inline-block;
+}
+
+.post-item svg{
+  padding: 10px;
+  color: gray;
+}
+
+.post-item svg:hover{
+  cursor: pointer;
+  border-radius: 4px;
+  color: black;
+  background-color:#e0e0e0;
+}

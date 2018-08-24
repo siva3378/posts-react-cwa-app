@@ -1,7 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px 10px;
   font-family: sans-serif;
+  background: #e0e0e0;
+  color: #38332f;
 }
 
 .App {

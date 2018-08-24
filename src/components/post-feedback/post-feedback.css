@@ -1,0 +1,14 @@
+.post-feedback{
+  margin: 0px;
+  padding: 12px 16px;
+  background: #f7f7f7;
+  color: #a29a9a;
+  font-size: 12px;
+  border-top: 1px solid #ddd;
+
+  text-align: left;
+}
+
+.loading{
+  float: right;
+}
